@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 2;
+    background-color: cyan;
+    color: Red;
+}
+
+header {
+    background-color: rgb(0, 102, 255);
+    color:red
+    padding 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+nav ul li {
+    display:inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 20px;
+    background-color: rgb(0, 225, 255);
+    margin: 20px 0;
+}
+
+.section h2 {
+    margin-bottom: 15px;
+    color: red;
+}
+
+.section img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px black;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #249bd3;
+    color: red;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: black;
+}
+
+footer {
+    background-color: aqua;
+    color: blue;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
